@@ -14,13 +14,13 @@ Each writeup walks through the analysis question by question: where to look, wha
 
 ## Challenges
 
-| # | Challenge | Platform | Category | Difficulty | Writeup |
-|:-:|-----------|:--------:|----------|:----------:|:-------:|
-| 1 | **Singularity** | 🐧 Linux | Rootkit | Easy | [📄 Read](Singularity/README.md) |
-| 2 | **Kernel Shield** | 🪟 Windows | Kernel Driver / EDR Killer | Easy | [📄 Read](Kernel%20Shield/README.md) |
-| 3 | **RokRat Loader** | 🪟 Windows | Shellcode Loader (Lazarus / APT) | Medium | [📄 Read](RokRat%20Loader/README.md) |
-| 4 | **EquationDrug** | 🪟 Windows | Kernel-Mode Implant | Hard | [📄 Read](EquationDrug/README.md) |
-| 5 | **Katz Stealer** | 🪟 Windows | Infostealer | Medium | [📄 Read](Katz%20Stealer/README.md) |
+| # | Challenge | Platform | Category | Difficulty | Description | Writeup |
+|:-:|-----------|:--------:|----------|:----------:|-------------|:-------:|
+| 1 | **Singularity** | 🐧 Linux | Rootkit | Easy | Linux kernel rootkit that hides PIDs/ports and ships an ICMP-triggered reverse shell | [📄 Read](Singularity/README.md) |
+| 2 | **Kernel Shield** | 🪟 Windows | Kernel Driver / EDR Killer | Easy | Driver that strips handle rights and force-kills EDR before ransomware runs | [📄 Read](Kernel%20Shield/README.md) |
+| 3 | **RokRat Loader** | 🪟 Windows | Shellcode Loader (Lazarus / APT) | Medium | XOR loader using PEB-walk API hashing to deploy the RokRat RAT | [📄 Read](RokRat%20Loader/README.md) |
+| 4 | **EquationDrug** | 🪟 Windows | Kernel-Mode Implant | Hard | Memory-only driver doing kernel APC injection into system processes | [📄 Read](EquationDrug/README.md) |
+| 5 | **Katz Stealer** | 🪟 Windows | Infostealer | Medium | Broad stealer grabbing browsers, wallets, and apps, exfil over raw TCP | [📄 Read](Katz%20Stealer/README.md) |
 
 ---
 
