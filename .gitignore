@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Analysis artifacts (don't commit samples/databases)
+*.i64
+*.idb
+*.bndb
+*.exe
+*.dll
+*.sys
+*.ko
+*.bin
+sample
+sample*
+
