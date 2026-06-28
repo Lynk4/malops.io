@@ -21,6 +21,7 @@ Each writeup walks through the analysis question by question: where to look, wha
 | 3 | **RokRat Loader** | 🪟 Windows | Shellcode Loader (Lazarus / APT) | Medium | XOR loader using PEB-walk API hashing to deploy the RokRat RAT | [📄 Read](RokRat%20Loader/README.md) |
 | 4 | **EquationDrug** | 🪟 Windows | Kernel-Mode Implant | Hard | Memory-only driver doing kernel APC injection into system processes | [📄 Read](EquationDrug/README.md) |
 | 5 | **Katz Stealer** | 🪟 Windows | Infostealer | Medium | Broad stealer grabbing browsers, wallets, and apps, exfil over raw TCP | [📄 Read](Katz%20Stealer/README.md) |
+| 6 | **Simda** | 🪟 Windows | Multi-Stage Loader / Botnet | Hard | Multi-stage packer employing XOR decryption, memory dumping, debugger detection traps, dynamic C2 resolution, and RunOnce persistence | [📄 Read](https://github.com/Lynk4/malops.io/tree/main/Simda) |
 
 ---
 
