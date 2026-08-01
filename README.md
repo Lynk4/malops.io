@@ -23,8 +23,7 @@ Each writeup walks through the analysis question by question: where to look, wha
 | 5 | **Katz Stealer** | 🪟 Windows | Infostealer | Medium | Broad stealer grabbing browsers, wallets, and apps, exfil over raw TCP | [📄 Read](Katz%20Stealer/README.md) |
 | 6 | **Simda** | 🪟 Windows | Multi-Stage Loader / Botnet | Hard | Multi-stage packer employing XOR decryption, memory dumping, debugger detection traps, dynamic C2 resolution, and RunOnce persistence | [📄 Read](https://github.com/Lynk4/malops.io/tree/main/Simda) |
 | 7 | **Carbanak** | 🪟 Windows | Banking Trojan / Backdoor | Medium | Banking Trojan using custom API hashing, process injection, encrypted configuration, persistence, and C2 communications for stealthy financial intrusions. | [📄 Read](https://github.com/Lynk4/malops.io/tree/main/carbanak) |
-
-
+| 8 | **ShinySpider** | 🪟 Windows | Ransomware | Hard | Go-based ransomware featuring ETW evasion, API hashing, privilege checks, mutex-based single-instance protection, shadow copy deletion, lateral movement via SMB/WMI, RSA-OAEP + AES file encryption, anti-forensics, wallpaper modification, and self-deletion mechanisms. | [📄 Read](https://github.com/Lynk4/malops.io/tree/main/ShinySpider) |
 
 ---
 
