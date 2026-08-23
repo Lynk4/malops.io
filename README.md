@@ -25,6 +25,10 @@ Each writeup walks through the analysis question by question: where to look, wha
 | 7 | **Carbanak** | 🪟 Windows | Banking Trojan / Backdoor | Medium | Banking Trojan using custom API hashing, process injection, encrypted configuration, persistence, and C2 communications for stealthy financial intrusions. | [📄 Read](https://github.com/Lynk4/malops.io/tree/main/carbanak) |
 | 8 | **ShinySpider** | 🪟 Windows | Ransomware | Hard | Go-based ransomware featuring ETW evasion, API hashing, privilege checks, mutex-based single-instance protection, shadow copy deletion, lateral movement via SMB/WMI, RSA-OAEP + AES file encryption, anti-forensics, wallpaper modification, and self-deletion mechanisms. | [📄 Read](https://github.com/Lynk4/malops.io/tree/main/ShinySpider) |
 | 9 | **ValleyRAT** | 🪟 Windows | RAT / Backdoor | Medium | Go-based RAT featuring Run-key persistence, AES-encrypted multi-stage payloads, API-hashed shellcode, AMSI/ETW/WLDP security patching, in-memory PE loading, encrypted C2 configuration, process dumping via MiniDumpWriteDump, and multiple C2 ports. | [📄 Read](https://github.com/Lynk4/malops.io/tree/main/ValleyRAT) |
+| 10 | AuraWiper | 🪟 Windows | Wiper | Easy | Destructive Windows wiper featuring multiple persistence mechanisms, mutex-based execution control, process-monitoring tool termination, Task Manager disabling, MBR overwriting, deletion of critical Windows boot/system files, Shadow Copy and recovery destruction, SeShutdownPrivilege abuse, forced BSOD via NtRaiseHardError, and self-deletion. | [📄 Read](https://github.com/Lynk4/malops.io/tree/main/AuraWiper) |
+
+
+
 ---
 
 ### If you find these writeups useful, consider giving the repo a ⭐.
